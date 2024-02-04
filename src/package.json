@@ -1,0 +1,25 @@
+{
+  "name": "fuildpass",
+  "version": "1.0.0",
+  "description": "For fuildpass",
+  "main": "index.js",
+  "scripts": {
+    "start": "parcel index.html",
+    "build": "parcel build index.html",
+    "test": "jest"
+  },
+  "author": "highnitin",
+  "license": "ISC",
+  "devDependencies": {
+    "parcel": "^2.11.0",
+    "process": "^0.11.10"
+  },
+  "dependencies": {
+    "@superfluid-finance/sdk-core": "^0.6.12",
+    "ethers": "^5.7.2",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-router-dom": "^6.21.3",
+    "react-toastify": "^10.0.4"
+  }
+}
